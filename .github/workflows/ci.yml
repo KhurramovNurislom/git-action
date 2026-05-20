@@ -42,7 +42,7 @@ jobs:
 
 
   # ── Job 2: Build Docker image and push to Docker Hub ───────────────────────
-  #docker:
+  docker:
      name: Docker Build & Push
      runs-on: ubuntu-latest
      needs: test                          # only runs if tests passed
