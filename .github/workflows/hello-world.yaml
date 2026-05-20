@@ -3,7 +3,7 @@ name: Hello World Workflow
 # Trigger the workflow on every push to the main branch, or manually
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "release" ]
   workflow_dispatch:
 
 jobs:
@@ -12,4 +12,4 @@ jobs:
     
     steps:
       - name: Run a one-line script
-        run: echo "Hello, World!"
+        run: echo "Hello, to release from main!"
