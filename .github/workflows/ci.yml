@@ -14,7 +14,8 @@ env:
 # ── Jobs ─────────────────────────────────────────────────────────────────────
 jobs:
 
-  # ── Job 1: Install deps and run tests ──────────────────────────────────────
+# Nurislom
+  # ── Job 1: Install deps and run tests ────────────────────────────────────── 11
   test:
     name: Build & Test
     runs-on: ubuntu-latest
